@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<html>
+<head>
+    <script charset="utf-8" type="text/javascript" src="mirrorTextToDigit.js"></script>
+</head>
+<body>
+<div align="center">
+        <label>Text: </label><input id="subject">
+        <button onclick="draw();">DRAW</button>
+        <button onclick="clearCanvas();">CLEAR</button>
+        <BR>
+        <label>Size: </label><input id="size" value="16">
+        <label>Border: </label><input type="checkbox" id="border" checked>
+        <label>Clear: </label><input type="checkbox" id="clr" checked>
+</div>
+<div align="center">
+    <canvas id="canvas" width="700" height="700"></canvas>
+</div>
+<div align="center" id="digitModel">
+</div>
+</body>
+</html>
